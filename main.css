@@ -1,5 +1,6 @@
 
 
+
 	h1 {
 		font-size: 5em;
 		font-family: arial,helvetica;
@@ -88,9 +89,19 @@
          left: 43%;
          right: 43%;
     }
-	#sponsors img {
 
+	#sponsors img {
+		opacity: .25;
+		    transition: opacity .5s ease-out;
+		    -moz-transition: opacity .5s ease-out;
+		    -webkit-transition: opacity .5s ease-out;
+		    -o-transition: opacity .5s ease-out;
 	}
+
+	#sponsors img:hover {
+		opacity: 1;
+	}
+
 
 	#sponsors h1 {
 		padding-top: 25px;
